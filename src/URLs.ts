@@ -5,30 +5,146 @@ export const URLs: URLDescriptor[] = [
         dept: '75',
         deptName: 'Paris',
         annee: '2024',
-        url: 'https://www.demarches-simplifiees.fr/statistiques/demande-autorisation-instruction-en-famille-24-25'
-    },
-    {
+        urlKey: 'demande-autorisation-instruction-en-famille-24-25'
+    }, {
         dept: '92',
         deptName: 'Hauts-de-Seine',
         annee: '2024',
-        url: 'https://www.demarches-simplifiees.fr/statistiques/dsden-92-demande-d-autorisation-d-instruction-dans'
-    },
-    {
+        urlKey: 'dsden-92-demande-d-autorisation-d-instruction-dans'
+    }, {
         dept: '95',
         deptName: 'Val-d\'Oise',
         annee: '2024',
-        url: 'https://www.demarches-simplifiees.fr/statistiques/dsden-95-demande-d-autorisation-d-instruction-dans'
-    },
-    {
+        urlKey: 'dsden-95-demande-d-autorisation-d-instruction-dans'
+    }, {
         dept: '91',
         deptName: 'Essonne',
         annee: '2024',
-        url: 'https://www.demarches-simplifiees.fr/statistiques/dsden-91-demande-d-autorisation-d-instruction-dans'
-    },
-    {
+        urlKey: 'dsden-91-demande-d-autorisation-d-instruction-dans'
+    }, {
         dept: '78',
         deptName: 'Yvelines',
         annee: '2024',
-        url: 'https://www.demarches-simplifiees.fr/statistiques/dsden-78-demande-d-autorisation-d-instruction-dans'
+        urlKey: 'dsden-78-demande-d-autorisation-d-instruction-dans'
+    }, {
+        dept: '07',
+        deptName: 'Ardèche',
+        annee: '2024',
+        urlKey: 'demande-ief-2024-dsden07'
+    }, {
+        dept: '26',
+        deptName: 'Drôme',
+        annee: '2024',
+        urlKey: 'demande-ief-2024-dsden26'
+    }, {
+        dept: '38',
+        deptName: 'Isère',
+        annee: '2024',
+        urlKey: 'demande-ief-2024-dsden38'
+    }, {
+        dept: '73',
+        deptName: 'Savoie',
+        annee: '2024',
+        urlKey: 'demande-ief-2024-dsden73'
+    }, {
+        dept: '74',
+        deptName: 'Haute-Savoie',
+        annee: '2024',
+        urlKey: 'demande-ief-2024-dsden74'
+    }, {
+        dept: '22',
+        deptName: 'Côtes d Armor',
+        annee: '2024',
+        urlKey: 'demande-autorisation-instruction-famille-nouvelle-demande-2024-ac-rennes-22'
+    }, {
+        dept: '29',
+        deptName: 'Finistère',
+        annee: '2024',
+        urlKey: 'demande-autorisation-instruction-famille-nouvelle-demande-2024-ac-rennes-29'
+    }, {
+        dept: '35',
+        deptName: 'Ille-et-Vilaine',
+        annee: '2024',
+        urlKey: 'demande-autorisation-instruction-famille-nouvelle-demande-2024-ac-rennes-35'
+    }, {
+        dept: '56',
+        deptName: 'Morbihan',
+        annee: '2024',
+        urlKey: 'demande-autorisation-instruction-famille-nouvelle-demande-2024-ac-rennes-56'
+    }, {
+        dept: '13',
+        deptName: 'Bouches-du-Rhône',
+        annee: '2024',
+        urlKey: 'dsden13-ief2024'
+    }, {
+        dept: '04',
+        deptName: 'Alpes-de-Haute-Provence',
+        annee: '2024',
+        urlKey: 'demande-autorisation-instruction-en-famille-0405'
+    }, {
+        dept: '05',
+        deptName: 'Hautes-Alpes',
+        annee: '2024',
+        urlKey: 'demande-autorisation-instruction-en-famille-0405'
+    }, {
+        dept: '59',
+        deptName: 'Nord',
+        annee: '2024',
+        urlKey: 'autorisation-instruction-dans-la-famille-59'
+    }, {
+        dept: '24',
+        deptName: 'Dordogne',
+        annee: '2024',
+        urlKey: 'instruction-en-famille-2024-2025-dordogne'
+    }, {
+        dept: '34',
+        deptName: 'Hérault',
+        annee: '2024',
+        urlKey: 'annee-2024-2025-demande-d-ief'
+    }, {
+        dept: '06',
+        deptName: 'Alpes-Maritimes',
+        annee: '2024',
+        urlKey: 'ief2024-dsden06'
+    }, {
+        dept: '14',
+        deptName: 'Calvados',
+        annee: '2024',
+        urlKey: 'demande-d-autorisation-ief-calvados'
+    }, {
+        dept: '27',
+        deptName: 'Eure',
+        annee: '2024',
+        urlKey: 'demande-d-autorisation-ief-eure'
+    }, {
+        dept: '50',
+        deptName: 'Manche',
+        annee: '2024',
+        urlKey: 'demande-d-autorisation-ief-manche'
+    }, {
+        dept: '61',
+        deptName: 'Orne',
+        annee: '2024',
+        urlKey: 'demande-d-autorisation-ief-orne'
+    }, {
+        dept: '76',
+        deptName: 'Seine-Maritime',
+        annee: '2024',
+        urlKey: 'demande-d-autorisation-ief-seine-maritime'
+    }, {
+        dept: '33',
+        deptName: 'Gironde',
+        annee: '2024',
+        urlKey: 'demande-d-autorisation-d-instruction-dans-la-famille-2024-25'
+    }, {
+        dept: '40',
+        deptName: 'Landes',
+        annee: '2024',
+        urlKey: 'demande-d-autorisation-ief-landes-24-25'
+    }, {
+        dept: '65',
+        deptName: 'Hautes-Pyrénées',
+        annee: '2024',
+        urlKey: 'dsden-65-ief-rentree2024'
     }
 ];

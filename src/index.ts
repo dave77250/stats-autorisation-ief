@@ -81,7 +81,8 @@ const processData = (annee: string, data: any[]) => {
 const processURL = async (url: URLDescriptor) => {
     console.log(`Lecture des données pour le département ${url.deptName}...`);
     // download the page using axios
-    const response = await axios.get(url.url);
+    const targetURL = `https://www.demarches-simplifiees.fr/statistiques/${url.urlKey}`;
+    const response = await axios.get(targetURL);
     const pageContent: string = response.data;
     // split pageContent into lines
     const lines = pageContent.split('\n');
@@ -93,6 +94,10 @@ const processURL = async (url: URLDescriptor) => {
     const chartLine = matchingLines[0];
     const startingPos = chartLine.indexOf('[{\"name\":');
     const endingPos = chartLine.indexOf(', {\"colors\":');
+    if (startingPos === -1) {
+        console.log(`Pas de données pour le département ${url.deptName}`);
+        return [];
+    }
     const chartData = JSON.parse(chartLine.substring(startingPos, endingPos));
     const dataValues = processData(url.annee, chartData);
     const result: ResultLine[] =  dataValues.map((dataValue) => {
