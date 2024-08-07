@@ -30,6 +30,8 @@ const getMonthNumber = (month: string): string => {
         return '05';
     } else if (month === 'juin') {
         return '06';
+    } else if(month === 'juil.') {
+        return '07';
     } else {
         return '##';
     }
